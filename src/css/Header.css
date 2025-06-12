@@ -1,0 +1,37 @@
+/* src/components/Header.css */
+
+.navbar {
+  /* This is the magic part! */
+  position: sticky; /* Makes the element stick */
+  top: 0; /* Sticks it to the very top of the viewport */
+  
+  /* Add styling to make it look like a navbar */
+  background-color: #1a1a1a; /* A dark background to make it stand out */
+  padding: 1rem 0; /* Add some vertical padding */
+  width: 100%; /* Make sure it spans the full width */
+  z-index: 1000; /* Ensures it stays on top of other content */
+  
+  /* Use Flexbox to center the navigation links */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar nav {
+  /* Use Flexbox for the links themselves to add spacing */
+  display: flex;
+  gap: 2rem; /* This creates space BETWEEN the links */
+}
+
+.nav-link {
+  color: #e0e0e0; /* A light color for the text */
+  text-decoration: none; /* Removes the ugly underline */
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Add a hover effect for interactivity */
+.nav-link:hover {
+  color: #646cff; /* The purple color from the default Vite template */
+}

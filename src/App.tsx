@@ -1,15 +1,16 @@
 // src/App.tsx
+import { Outlet } from "react-router-dom"; // 1. Import Outlet
+import Header from "./components/Header";
 import "./App.css";
-import Header from "./components/Header"; // 1. Import your new component
 
 function App() {
   return (
     <div>
-      <Header /> {/* 2. Use it like an HTML tag */}
+      <Header /> {/* The Header will now show on every page */}
       <main>
-        <h1>My Awesome Portfolio</h1>
-        <p>Welcome to my site!</p>
+        <Outlet /> {/* 2. This is where your page content will be rendered */}
       </main>
+      {/* You could also add a <Footer /> component here later */}
     </div>
   );
 }
