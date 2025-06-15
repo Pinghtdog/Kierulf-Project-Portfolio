@@ -2,14 +2,14 @@ function HomePage() {
   return (
     <div>
       <h1>Welcome to My Portfolio</h1>
-      <p>
+      <p className="main-body">
         Hi! I am Kelvin Pehrson P. Kierulf. Currently a 3rd Year Computer
         Science Student at Cebu Institute of Technology.
         <br></br>
-        My coursework has provided me with a solid foundation in programming
-        languages such as C++, Java, and Kotlin, as well as database management
-        with MySQL.
-        <br></br>
+        <t></t>My coursework has provided me with a solid foundation in
+        programming languages such as C++, Java, and Kotlin, as well as database
+        management with MySQL.
+        {/* <br></br> */}
         Beyond my academic achievements, I have actively sought opportunities to
         apply my skills to real-world projects. Notably, I led the UI/UX
         implementation, API integration, and quality assurance for "Asa Ta Bai,"
@@ -26,6 +26,7 @@ function HomePage() {
       </p>
 
       <h3>My projects</h3>
+
       <ol>Nutrilens</ol>
       <ol> Gemini Integration</ol>
     </div>

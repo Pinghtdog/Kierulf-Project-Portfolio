@@ -10,7 +10,7 @@ import AboutPage from "./pages/AboutPage.tsx";
 import ProjectsPage from "./pages/ProjectsPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
 
-import "./index.css";
+import "./css/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

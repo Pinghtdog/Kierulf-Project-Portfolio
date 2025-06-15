@@ -1,16 +1,21 @@
 // src/App.tsx
-import { Outlet } from "react-router-dom"; // 1. Import Outlet
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import "./App.css";
+import "./css/App.css";
 
 function App() {
   return (
     <div>
-      <Header /> {/* The Header will now show on every page */}
-      <main>
-        <Outlet /> {/* 2. This is where your page content will be rendered */}
+      {/* The Header is now free from the content box styling */}
+      <Header />
+
+      {/* We apply the centered, padded styling ONLY to the main content area */}
+      <main className="main-content">
+        <Outlet />
       </main>
-      {/* You could also add a <Footer /> component here later */}
+
+      {/* You might want to wrap your footer in the content box too, or style it separately */}
+      <footer className="main-content">Kelvin Pehrson P. Kierulf</footer>
     </div>
   );
 }
