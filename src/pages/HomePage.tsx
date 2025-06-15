@@ -6,9 +6,9 @@ function HomePage() {
         Hi! I am Kelvin Pehrson P. Kierulf. Currently a 3rd Year Computer
         Science Student at Cebu Institute of Technology.
         <br></br>
-        <t></t>My coursework has provided me with a solid foundation in
-        programming languages such as C++, Java, and Kotlin, as well as database
-        management with MySQL.
+        My coursework has provided me with a solid foundation in programming
+        languages such as C++, Java, and Kotlin, as well as database management
+        with MySQL.
         {/* <br></br> */}
         Beyond my academic achievements, I have actively sought opportunities to
         apply my skills to real-world projects. Notably, I led the UI/UX
