@@ -1,5 +1,5 @@
 // src/components/Header.tsx
-import React from "react";
+
 import { Link } from "react-router-dom";
 // We no longer need to import Header.css!
 
